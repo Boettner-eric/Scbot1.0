@@ -1,0 +1,93 @@
+Size : Word     : Match : time (seconds)
+2    : aa       : 3     :  0.01090
+2    : am       : 3     :  0.01605
+5    : alfie    : 36    :  0.96272
+5    : aimer    : 47    :  1.14643
+3    : aid      : 5     :  0.05511
+5    : flaws    : 25    :  1.22975
+6    : martha   : 82    :  7.67927
+6    : camera   : 91    :  8.72814
+6    : gender   : 98    :  6.56517
+5    : bloom    : 32    :  0.77401
+6    : flavor   : 40    :  5.87775
+6    : cannon   : 89    :  6.92707
+5    : minor    : 34    :  1.06993
+5    : tears    : 74    :  1.36788
+7    : negativ  : 122   :  42.4073
+7    : alright  : 115   :  46.6316
+7    : watches  : 176   :  58.5441
+6    : plaots   : 105   :  8.67255
+8    : storiesa : 598   :  533.776
+7    : tragedy  : 138   :     46.2
+5    : spoil    : 45    :     1.35
+5    : minor    : 34    :     1.07
+6    : mirror   : 39    :     7.64
+6    : socrat   : 113   :     9.69
+6    : spring   : 57    :     8.64
+7    : terrors  : 234   :     61.4
+7    : wathour  : 95    :     42.7
+6    : zzoats   : 26    :     6.16
+6    : flyers   : 57    :     6.73
+6    : kjlsaf   : 21    :     6.08
+6    : lkajfi   : 27    :     4.44
+8    : kliosatr : 327   :      411
+8    : homework : 138   :      314
+6    : condit   : 52    :     7.95
+6    : akjlfs   : 21    :      6.3
+5    : akljf    : 8     :      0.7
+7    : lkajfsi  : 66    :       44
+6    : walkin   : 49    :      4.7
+6    : flower   : 55    :      5.5
+8    : classics : 289   :  6.7e+02
+7    : kjasklf  : 30    :       38
+5    : aspod    : 43    :      1.6
+6    : finite   : 53    :      6.1
+6    : subset   : 65    :      8.5
+5    : kjlas    : 13    :        1
+7    : flameys  : 78    :       48
+7    : classic  : 65    :  	76
+
+8    : indented : 469   : 4.1e+02: best word : indented
+3    : car      : 5     : 0.064  : best word : arc
+4    : flaw     : 41    : 0.18   : best word : flaw
+4    : flaw     : 21    : 0.18   : best word : flaw
+6    : flavor   : 50    : 6.4    : best word : flavor
+6    : cancel   : 105   : 9.2    : best word : flavor
+5    : ubade    : 17    : 1      : best word : daube
+6    : ubades   : 69    : 7.8    : best word : daubes
+6    : uberge   : 116   : 5.7    : best word : uberge
+7    : uberges  : 260   : 53     : best word : uberges
+5    : ubade    : 17    : 1      : best word : daube
+6    : ubades   : 53    : 7.8    : best word : daubes
+6    : uberge   : 48    : 5.7    : best word : uberge
+7    : uberges  : 145   : 50     : best word : uberges
+6    : clever   : 62    : 7.4    : best word : clever
+6    : primes   : 99    : 9.7    : best word : simper
+
+7    : babylon  : 67    : 29     : best word : nobby
+7    : factors  : 161   : 68     : best word : factors
+7    : flavors  : 2     : 20     : best word : flavors
+7    : flavors  : 76    : 92     : best word : flavors
+8    : becauses : 1     : 0.1    : best word : 
+8    : american : 1     : 0.099  : best word : 
+7    : america  : 1     : 57     : best word : 
+5    : flame    : 1     : 0.00028 : best word : 
+6    : flower   : 1     : 0.00095 : best word : 
+6    : flower   : 1     : 0.00094 : best word : 
+6    : flower   : 1     : 0.00094 : best word : 
+5    : claes    : 1     : 0.00028 : best word : 
+3    : can      : 1     : 0.00014 : best word : 
+6    : martha   : 5     : 6.2    : best word : tharm
+4    : rick     : 1     : 0.00012 : best word : 
+6    : cancel   : 11    : 6.9    : best word : cancel
+5    : clear    : 4     : 0.59   : best word : lacer
+5    : flyer    : 4     : 0.38   : best word : refly
+6    : cancel   : 11    : 6.9    : best word : cancel
+7    : akdsjlf  : 3     : 48     : best word : flask
+6    : adskjf   : 1     : 5.9    : best word : 
+5    : jkafd    : 1     : 0.37   : best word : 
+4    : yess     : 1     : 0.00012 : best word : 
+5    : werse    : 9     : 0.54   : best word : ewers
+6    : cancel   : 11    : 6.8    : best word : cancel
+3    : can      : 1     : 0.00011 : best word : 
+3    : can      : 1     : 0.00011 : best word : 
