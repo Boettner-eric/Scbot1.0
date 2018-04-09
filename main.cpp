@@ -16,7 +16,7 @@
  1. the buffer reads the sane letter twice in a gice functiobn and doesnt return a correct list of words
  2. words are not correctly counted in the "n" function
  3. randl() doesnt check for redundencices
- 
+
 */
 
 int flame = 0;
@@ -38,7 +38,7 @@ int main()
     ofstream results, testing;
     int sore = 0, score[1500], l=0, x=0, points[27] = {0,1,2,2,2,1,4,2,4,1,8,5,1,2,1,1,2,10,1,1,1,1,4,4,8,4,10};
     char p;
-    
+
     cout << flame;
     cout << "isword() - randl() - find() \nMode? (f / n / r(!)) ";
     cin >> p;
@@ -77,28 +77,28 @@ int main()
 
             }
         }
-        
+
         printf( "%s\n", rnd);
     }
-    
+
     else if (p == 'N' or p == 'n')
     {
         results.open("results.txt");
         results << "";
         results.close();
         cout << "** Cache Cleared **\n";
-        
+
         do {
             cout << "word generator\n\nenter any (1 - 10) letters * longer sequences take exponential time : ";
             cin >> str;
             system("clear");
         } while(str.length() > 12);
 
-    
+
         std::clock_t start; double duration;
         start = std::clock();
         get(str, "");
-    
+
         cout << " \n\n ** PROCESS COMPLETE **\n";
         answers.open("results.txt");
         l=0;
@@ -130,12 +130,12 @@ int main()
                 }
             }
         }
-            
+
         duration = ( std::clock() - start ) / (double) CLOCKS_PER_SEC;
         cout << "\n";
-       
+
 // add in chekcs for duplicate answers here
-        
+
         for(x=l;x>0;x--)
         {
             if (tmp[x] != tmp[x+1])
@@ -143,7 +143,7 @@ int main()
                 cout << "\n " << left << setw(2) << score[x] << " - " << tmp[x];
             }
         }
-            
+
         cout << "\n " <<  l-1 << " results : " << setprecision(2) << duration << " seconds\n";
         cout << "\n\n";
         testing.open("debug.txt", ios::app);
@@ -159,7 +159,7 @@ void get(string str, string tmp)
     ofstream answer;
     for( int i = 0; i < str.length(); i++ )
         get(string(str).erase(i,1), tmp + str[i]);
-    
+
     if (tmp.size() > 4)
     {
         if (is_word(tmp) == true)
@@ -194,7 +194,7 @@ bool is_word(string tmp) //checks against the dictionary
 
     dictionary = new string [18000]; // ( 17,500 words in text file )
     ifstream words; // ( words : file for dictionary )
-    
+
     int x;
     first = tmp[0];
 
@@ -207,7 +207,7 @@ bool is_word(string tmp) //checks against the dictionary
         words.open(ty);
         break;
     }
-    
+
     while(!words.eof())
     {
         getline(words, dictionary[l]);

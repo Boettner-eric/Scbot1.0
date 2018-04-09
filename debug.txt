@@ -91,3 +91,6 @@ Size : Word     : Match : time (seconds)
 6    : cancel   : 11    : 6.8    : best word : cancel
 3    : can      : 1     : 0.00011 : best word : 
 3    : can      : 1     : 0.00011 : best word : 
+5    : jkadf    : 1     : 0.38   : best word : 
+5    : clear    : 4     : 0.6    : best word : lacer
+4    : bleh     : 1     : 0.00015 : best word : 
