@@ -9,16 +9,6 @@
 #include <stdio.h>
 
 
-
-
-/*
- Current bugs:
- 1. the buffer reads the sane letter twice in a gice functiobn and doesnt return a correct list of words
- 2. words are not correctly counted in the "n" function
- 3. randl() doesnt check for redundencices
-
-*/
-
 int flame = 0;
 
 using namespace std;
@@ -148,7 +138,7 @@ int main()
         cout << "\n\n";
         testing.open("debug.txt", ios::app);
         testing << left << setw(4) << str.length() << " : " << setw(8) << str << " : " << setw(5) << l << " : ";
-        testing << left << setw(6) << setprecision(2) << duration << " : best word : " << tmp[l-1] << "\n";
+        testing << left << setw(8) << setprecision(2) << duration << " : best word : " << tmp[l-1] << "\n";
         testing.close();
     }
     return 0;
