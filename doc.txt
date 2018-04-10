@@ -6,12 +6,12 @@ Main
   	tlp = ‘’	- stores tmp[l] as an array (string to char array)
 
   Ifstream
-  	answers		- input var for results.txt
+  	result		- input var for results.txt
   	words		- dictionary file
   	import		- import file for testing batches
 
   Ofstream
-  	results		- writes to results.txt
+  	clear		- clears results.txt
   	testing		- writes to debug.txt
 
   Int
@@ -23,3 +23,7 @@ Main
 
   Char
   	p 		- user input for mode
+
+  std::clock_t
+    start - time of start
+    duration - total time run
