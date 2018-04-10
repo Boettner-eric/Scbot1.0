@@ -97,3 +97,17 @@ Size : Word     : Match : time (seconds)
 5    : clear    : 4     : 0.65   : best word : lacer
 6    : cancel   : 11    : 7.1      : best word : cancel
 7    : america  : 32    : 63       : best word : camera
+3    : can      : 1     : 0.00015  : best word : 
+4    : find     : 1     : 0.00026  : best word : 
+4    : lear     : 1     : 0.00011  : best word : 
+4    : liar     : 1     : 0.00014  : best word : 
+7    : america  : 32    : 63       : best word : camera
+4    : liar     : 14    : 0.17     : best word : rail
+4    : list     : 15    : 0.21     : best word : Initial string - list
+5    : lazer    : 18    : 0.97     : best word : Initial string - lazer
+5    : lasso    : 31    : 3.7      : best word : lasso
+3    : pop      : 3     : 0.079    : best word : pop
+3    : pop      : 3     : 0.074    : best word : pop
+3    : can      : 2     : 0.069    : best word : can
+4    : fill     : 9     : 0.32     : best word : fill
+6    : little   : 63    : 15       : best word : little

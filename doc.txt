@@ -1,0 +1,25 @@
+Variable Chart for tracking variables and changing naming conventions
+Main
+  Strings:
+  	str		- input string
+  	tmp[15000]	-
+  	tlp = ‘’	- stores tmp[l] as an array (string to char array)
+
+  Ifstream
+  	answers		- input var for results.txt
+  	words		- dictionary file
+  	import		- import file for testing batches
+
+  Ofstream
+  	results		- writes to results.txt
+  	testing		- writes to debug.txt
+
+  Int
+  	score[1500]	- score array to parallel tmp
+  	l		- counting variable
+  	x		- counting variable
+  	points[27] 	- points for each letter
+
+
+  Char
+  	p 		- user input for mode
