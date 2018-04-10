@@ -9,7 +9,6 @@
 #include <stdio.h>
 
 
-int flame = 0;
 
 using namespace std;
 using namespace std::chrono;  // for later function (play timer ~1 min each set of 7 letters)
@@ -28,8 +27,6 @@ int main()
     ofstream results, testing;
     int sore = 0, score[1500], l=0, x=0, points[27] = {0,1,2,2,2,1,4,2,4,1,8,5,1,2,1,1,2,10,1,1,1,1,4,4,8,4,10};
     char p;
-
-    cout << flame;
     cout << "isword() - randl() - find() \nMode? (f / n / r(!)) ";
     cin >> p;
     if (p == 'F' or p == 'f')
@@ -191,7 +188,7 @@ bool is_word(string tmp) //checks against the dictionary
     for (x=97;x<123;x++)
     if (int(first) == char(x))
     {
-        ty = "dict_";
+        ty = "dict/dict_";
         ty += char(x);
         ty += ".txt";
         words.open(ty);
