@@ -15,4 +15,5 @@
 * User input/game mode vs. the computer
 * Use class structure to fix score/tmp array
 * Better checks for duplicate strings (especially for words with double consonants)
+* As each string has *n!*  combinations longer words take much longer to process - this might be reduced by goroutines or limiting size of words to be greater than some 0 < i < n
 * Many bug fixes

@@ -60,6 +60,9 @@ int main()
       count = 0;
       while (count < size)
       {
+        clear.open("io/results.txt");
+        clear << "";
+        clear.close();
         str = imports[count];
         count += 1;
         get(str, "");
@@ -94,17 +97,12 @@ int main()
                 }
             }
         }
-
         duration = ( std::clock() - start ) / (double) CLOCKS_PER_SEC;
-
-// add in checks for duplicate answers here
-
         for(x=l;x>0;x--)
         {
           if (score[x] != 0) {
             cout << "\n " << left << setw(2) << score[x] << " - "<< tmp[x];
           }
-
         }
         cout << "\n\n " <<  l-1 << " results : " << setprecision(2) << duration << " seconds\n";
         cout << "   best word : "<< tmp[l-1] <<"\n\n";
@@ -112,7 +110,7 @@ int main()
         testing << left << setw(4) << str.length() << " : " << setw(8) << str << " : " << setw(5) << l << " : ";
         testing << left << setw(8) << setprecision(2) << duration << " : best word : " << tmp[l-1] << "\n";
         testing.close();
-    }
+      }
     }
     else if (p == 'N' or p == 'n')
     {
@@ -160,17 +158,12 @@ int main()
                 }
             }
         }
-
         duration = ( std::clock() - start ) / (double) CLOCKS_PER_SEC;
-
-// add in checks for duplicate answers here
-
         for(x=l;x>0;x--)
         {
           if (score[x] != 0) {
             cout << "\n " << left << setw(2) << score[x] << " - "<< tmp[x];
           }
-
         }
         cout << "\n\n " <<  l-1 << " results : " << setprecision(2) << duration << " seconds\n";
         cout << "   best word : "<< tmp[l-1] <<"\n\n";

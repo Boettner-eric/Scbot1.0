@@ -67,3 +67,14 @@ Size : Word     : Match : time   : best word
 6    : uberge   : 92    : 16       : best word : uberge
 7    : uberges  : 223   : 70       : best word : uberges
 6    : tittle   : 15    : 7        : best word : tittle
+3    : abc      : 2     : 0.026    : best word : cab
+5    : cycle    : 8     : 1.5      : best word : cycle
+5    : audio    : 17    : 2.8      : best word : cycle
+4    : back     : 19    : 3        : best word : back
+3    : abc      : 2     : 0.028    : best word : cab
+5    : cycle    : 7     : 1.4      : best word : cycle
+5    : audio    : 10    : 2.7      : best word : audio
+4    : back     : 4     : 2.9      : best word : back
+7    : forward  : 43    : 58       : best word : froward
+8    : scrabble : 159   : 5.3e+02  : best word : clabbers
+5    : lower    : 19    : 5.4e+02  : best word : rowel
