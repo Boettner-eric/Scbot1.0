@@ -185,6 +185,9 @@ int main()
 void get(string str, string tmp)
 {
     ofstream result;
+    ifstream check;
+    string word;
+    bool yn = false;
     for( int i = 0; i < str.length(); i++ )
         get(string(str).erase(i,1), tmp + str[i]); // recursive
 
@@ -193,9 +196,22 @@ void get(string str, string tmp)
         if (is_word(tmp) == true)
         {
             cout << "." << flush;
-            result.open("io/results.txt", ios::app);
-            result << "\n" << tmp;
-            result.close();
+            check.open("io/results.txt");
+            while (!check.eof())
+            {
+              check >> word;
+              if (word == tmp)
+              {
+                  yn = true;
+              }
+            }
+            check.close();
+            if (yn != true)
+            {
+              result.open("io/results.txt", ios::app);
+              result << "\n" << tmp;
+              result.close();
+            }
         }
     }
 }

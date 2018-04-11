@@ -66,3 +66,4 @@ Size : Word     : Match : time   : best word
 6    : ubades   : 52    : 9.3      : best word : daubes
 6    : uberge   : 92    : 16       : best word : uberge
 7    : uberges  : 223   : 70       : best word : uberges
+6    : tittle   : 15    : 7        : best word : tittle
