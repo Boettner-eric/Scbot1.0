@@ -1,5 +1,5 @@
 Variable Chart for tracking variables and changing naming conventions
-Main
+
   Strings:
   	str		- input string
   	tmp[15000]	-
@@ -10,7 +10,7 @@ Main
   	words		- dictionary file
   	import		- import file for testing batches
 
-  Ofstream
+  Ofstream¬
   	clear		- clears results.txt
   	testing		- writes to debug.txt
 

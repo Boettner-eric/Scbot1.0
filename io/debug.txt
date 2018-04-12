@@ -1,80 +1,24 @@
-Size : Word     : Match : time   : best word
-8    : indented : 469   : 4.1e+02: best word : indented
-3    : car      : 5     : 0.064  : best word : arc
-4    : flaw     : 41    : 0.18   : best word : flaw
-4    : flaw     : 21    : 0.18   : best word : flaw
-6    : flavor   : 50    : 6.4    : best word : flavor
-6    : cancel   : 105   : 9.2    : best word : flavor
-5    : ubade    : 17    : 1      : best word : daube
-6    : ubades   : 69    : 7.8    : best word : daubes
-6    : uberge   : 116   : 5.7    : best word : uberge
-7    : uberges  : 260   : 53     : best word : uberges
-5    : ubade    : 17    : 1      : best word : daube
-6    : ubades   : 53    : 7.8    : best word : daubes
-6    : uberge   : 48    : 5.7    : best word : uberge
-7    : uberges  : 145   : 50     : best word : uberges
-6    : clever   : 62    : 7.4    : best word : clever
-6    : primes   : 99    : 9.7    : best word : simper
-7    : babylon  : 67    : 29     : best word : nobby
-7    : factors  : 161   : 68     : best word : factors
-7    : flavors  : 2     : 20     : best word : flavors
-7    : flavors  : 76    : 92     : best word : flavors
-8    : becauses : 1     : 0.1    : best word :
-8    : american : 1     : 0.099  : best word :
-7    : america  : 1     : 57     : best word :
-5    : flame    : 1     : 0.0002 : best word :
-6    : flower   : 1     : 0.0005 : best word :
-6    : flower   : 1     : 0.0094 : best word :
-6    : flower   : 1     : 0.0094 : best word :
-5    : claes    : 1     : 0.0028 : best word :
-3    : can      : 1     : 0.0014 : best word :
-6    : martha   : 5     : 6.2    : best word : tharm
-4    : rick     : 1     : 0.0012 : best word :
-6    : cancel   : 11    : 6.9    : best word : cancel
-5    : clear    : 4     : 0.59   : best word : lacer
-5    : flyer    : 4     : 0.38   : best word : refly
-6    : cancel   : 11    : 6.9    : best word : cancel
-7    : akdsjlf  : 3     : 48     : best word : flask
-6    : adskjf   : 1     : 5.9    : best word :
-5    : jkafd    : 1     : 0.37   : best word :
-4    : yess     : 1     : 0.0012  : best word :
-5    : werse    : 9     : 0.54    : best word : ewers
-6    : cancel   : 11    : 6.8     : best word : cancel
-3    : can      : 1     : 000011  : best word :
-3    : can      : 1     : 000011  : best word :
-5    : jkadf    : 1     : 0.38    : best word :
-5    : clear    : 4     : 0.6     : best word : lacer
-4    : bleh     : 1     : 0.00015 : best word :
-5    : clear    : 4     : 0.65    : best word : lacer
-6    : cancel   : 11    : 7.1      : best word : cancel
-7    : america  : 32    : 63       : best word : camera
-3    : can      : 1     : 0.00015  : best word :
-4    : find     : 1     : 0.00026  : best word :
-4    : lear     : 1     : 0.00011  : best word :
-4    : liar     : 1     : 0.00014  : best word :
-7    : america  : 32    : 63       : best word : camera
-4    : liar     : 14    : 0.17     : best word : rail
-5    : lasso    : 31    : 3.7      : best word : lasso
-3    : pop      : 3     : 0.079    : best word : pop
-3    : pop      : 3     : 0.074    : best word : pop
-3    : can      : 2     : 0.069    : best word : can
-4    : fill     : 9     : 0.32     : best word : fill
-6    : little   : 63    : 15       : best word : little
-6    : string   : 53    : 35       : best word : string
-4    : indi     : 5     : 0.18     : best word : nidi
-5    : ubade    : 11    : 1.1      : best word : daube
-6    : ubades   : 52    : 9.3      : best word : daubes
-6    : uberge   : 92    : 16       : best word : uberge
-7    : uberges  : 223   : 70       : best word : uberges
-6    : tittle   : 15    : 7        : best word : tittle
-3    : abc      : 2     : 0.026    : best word : cab
-5    : cycle    : 8     : 1.5      : best word : cycle
-5    : audio    : 17    : 2.8      : best word : cycle
-4    : back     : 19    : 3        : best word : back
-3    : abc      : 2     : 0.028    : best word : cab
-5    : cycle    : 7     : 1.4      : best word : cycle
-5    : audio    : 10    : 2.7      : best word : audio
-4    : back     : 4     : 2.9      : best word : back
-7    : forward  : 43    : 58       : best word : froward
-8    : scrabble : 159   : 5.3e+02  : best word : clabbers
-5    : lower    : 19    : 5.4e+02  : best word : rowel
+Size : Word     : # Match : time   : best word
+3    : abc      : 2     : 0.05     : best word : cab
+4    : canc     : 2     : 0.87     : best word : can
+4    : beep     : 2     : 0.53     : best word : pee
+4    : boop     : 2     : 0.48     : best word : poo
+4    : prop     : 4     : 0.74     : best word : prop
+4    : plat     : 10    : 0.59     : best word : plat
+6    : paslts   : 57    : 28       : best word : splats
+6    : kjdasl   : 16    : 20       : best word : skald
+5    : goesa    : 24    : 3.3      : best word : ages
+5    : oasls    : 16    : 5.6      : best word : lasso
+5    : cycle    : 7     : 6        : best word : cycle
+5    : audio    : 10    : 5.6      : best word : audio
+4    : back     : 4     : 0.79     : best word : back
+6    : foward   : 33    : 33       : best word : dwarf
+6    : scrale   : 99    : 25       : best word : lacers
+5    : lower    : 19    : 1        : best word : rowel
+5    : moral    : 24    : 1.2      : best word : molar
+4    : lame     : 14    : 0.17     : best word : meal
+4    : laks     : 7     : 0.23     : best word : ska
+4    : iusn     : 7     : 0.2      : best word : nus
+5    : bings    : 14    : 1.1      : best word : gibs
+4    : star     : 14    : 0.24     : best word : rats
+5    : start    : 23    : 1.6      : best word : ttars
