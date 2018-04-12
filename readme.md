@@ -1,6 +1,6 @@
 # Scbot 1.0
 
-* An algorithm for solving permutations and finding scrabble legal words from random strings of charactors
+* An algorithm for solving permutations and finding scrabble legal words from random strings of characters
 
 ### Features
 * A simple lookup function to find if a string is a scrabble legal word
@@ -15,5 +15,5 @@
 * User input/game mode vs. the computer
 * Use class structure to fix score/tmp array
 * Better checks for duplicate strings (especially for words with double consonants)
-* As each string has *n!*  combinations longer words take much longer to process - this might be reduced by goroutines or limiting size of words to be greater than some 0 < i < n
+* As each string has *n!*  combinations longer words take much longer to process - this might be reduced by goroutines (requiring a rewrite)or limiting size of words to be greater than some 0 < i < n
 * Many bug fixes
