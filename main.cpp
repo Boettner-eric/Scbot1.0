@@ -75,7 +75,7 @@ int main()
 }
 void core(string str)
 {
-  string tmp[15000], tlp = "";
+  string tmp[200], tlp = "";
   ifstream result, words;
   ofstream clear, testing;
   int score[1500], l=0, x=0, points[27] = {0,1,2,2,2,1,4,2,4,1,8,5,1,2,1,1,2,10,1,1,1,1,4,4,8,4,10};
@@ -126,10 +126,10 @@ void core(string str)
     }
   }
   cout << "\n\n " <<  l-1 << " results : " << setprecision(2) << duration << " seconds\n";
-  cout << " : "<< tmp[l-1] <<"\n\n";
+  cout << "best word : "<< tmp[l-1] <<"\n\n";
   testing.open("io/debug.txt", ios::app);
-  testing << left << setw(4) << str.length() << " : " << setw(8) << str << " : " << setw(5) << l << " : ";
-  testing << left << setw(8) << setprecision(2) << duration << " : best word : " << tmp[l-1] << "\n";
+  testing << left << setw(4) << str.length() << " : " << setw(12) << str << " : " << setw(5) << l << " : ";
+  testing << left << setw(8) << setprecision(2) << duration << " : " << tmp[l-1] << "\n";
   testing.close();
 }
 

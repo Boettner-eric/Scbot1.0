@@ -1,24 +1,24 @@
-Size : Word     : # Match : time   : best word
-3    : abc      : 2     : 0.05     : best word : cab
-4    : canc     : 2     : 0.87     : best word : can
-4    : beep     : 2     : 0.53     : best word : pee
-4    : boop     : 2     : 0.48     : best word : poo
-4    : prop     : 4     : 0.74     : best word : prop
-4    : plat     : 10    : 0.59     : best word : plat
-6    : paslts   : 57    : 28       : best word : splats
-6    : kjdasl   : 16    : 20       : best word : skald
-5    : goesa    : 24    : 3.3      : best word : ages
-5    : oasls    : 16    : 5.6      : best word : lasso
-5    : cycle    : 7     : 6        : best word : cycle
-5    : audio    : 10    : 5.6      : best word : audio
-4    : back     : 4     : 0.79     : best word : back
-6    : foward   : 33    : 33       : best word : dwarf
-6    : scrale   : 99    : 25       : best word : lacers
-5    : lower    : 19    : 1        : best word : rowel
-5    : moral    : 24    : 1.2      : best word : molar
-4    : lame     : 14    : 0.17     : best word : meal
-4    : laks     : 7     : 0.23     : best word : ska
-4    : iusn     : 7     : 0.2      : best word : nus
-5    : bings    : 14    : 1.1      : best word : gibs
-4    : star     : 14    : 0.24     : best word : rats
-5    : start    : 23    : 1.6      : best word : ttars
+Size : Word         : Hits  : time     : best word
+3    : abc          : 2     : 0.024    : cab
+4    : canc         : 2     : 0.31     : can
+4    : beep         : 2     : 0.18     : pee
+4    : boop         : 2     : 0.18     : poo
+4    : prop         : 4     : 0.28     : prop
+4    : plat         : 10    : 0.22     : plat
+6    : paslts       : 57    : 11       : splats
+6    : kjdasl       : 16    : 7.5      : skald
+5    : goesa        : 24    : 1.4      : ages
+5    : oasls        : 16    : 1.6      : lasso
+5    : cycle        : 7     : 1.4      : cycle
+5    : audio        : 10    : 1.2      : audio
+4    : back         : 4     : 0.18     : back
+6    : foward       : 33    : 7.5      : dwarf
+6    : scrale       : 99    : 10       : lacers
+5    : lower        : 19    : 1.1      : rowel
+5    : moral        : 24    : 1.4      : molar
+4    : lame         : 14    : 0.18     : meal
+4    : laks         : 7     : 0.21     : ska
+4    : iusn         : 7     : 0.23     : nus
+5    : bings        : 14    : 1.1      : gibs
+4    : star         : 14    : 0.26     : rats
+5    : start        : 23    : 1.6      : ttars
